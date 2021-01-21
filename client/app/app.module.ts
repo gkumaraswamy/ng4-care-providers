@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app.routing.module';
 // import components here
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+ 
 
 // import directives/pipes here
 
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     HomeComponent
-  ],
+    
+    ],
   imports: [
     I18nModule,
     HttpModule,
